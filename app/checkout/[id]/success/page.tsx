@@ -5,7 +5,7 @@ import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { CircleCheck as CheckCircle, CreditCard } from 'lucide-react';
+import { CheckCircle, CreditCard } from 'lucide-react';
 
 export default function SuccessPage() {
   const params = useParams();
